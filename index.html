@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>xsanex</title>
+  <style>
+    body {
+      margin: 0;
+      background: #111;
+      font-family: sans-serif;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      height: 100vh;
+      overflow: hidden;
+    }
+    .dock {
+      display: flex;
+      gap: 20px;
+      padding: 20px;
+      background: rgba(255,255,255,0.1);
+      border-radius: 20px;
+      backdrop-filter: blur(10px);
+      position: fixed;
+      bottom: 20px;
+    }
+    .dock a {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-decoration: none;
+      color: white;
+      font-size: 12px;
+    }
+    .dock img {
+      width: 50px;
+      height: 50px;
+      border-radius: 12px;
+      transition: transform 0.2s;
+    }
+    .dock img:hover {
+      transform: scale(1.2);
+    }
+  </style>
+</head>
+<body>
+  <div class="dock">
+    <a href="https://t.me/xsanex_multiflexer" target="_blank">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" alt="Telegram" />
+      Finder
+    </a>
+    <a href="https://drive.google.com/drive/u/0/folders/1Y-xUuDcxYIrzsppsI7i2jY1dwE_WUk6b" target="_blank">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Google_Drive_icon_(2020).svg/1024px-Google_Drive_icon_(2020).svg.png" alt="Resume" />
+      Resume
+    </a>
+    <a href="#">
+      <img src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/96/external-portfolio-personal-data-management-and-verification-shadow-tal-revivo.png" alt="Projects" />
+      Projects
+    </a>
+    <a href="#">
+      <img src="https://img.icons8.com/fluency/96/image-gallery.png" alt="Gallery" />
+      Gallery
+    </a>
+  </div>
+</body>
+</html>
